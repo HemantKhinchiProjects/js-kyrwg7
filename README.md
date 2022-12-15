@@ -17,4 +17,5 @@
 1. for Resolve = .then(()=>{})
 2. for reject = .catch(()=>{})
    ![image](https://user-images.githubusercontent.com/99024438/207844402-a9fa1bad-2ecd-4263-82fd-f36b31954da8.png)
+   
 3. ![image](<https://github.com/HemantTrellance/js-kyrwg7/blob/main/assets/Js%20(forked)%20-%20StackBlitz.png?raw=true>)
