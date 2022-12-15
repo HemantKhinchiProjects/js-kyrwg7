@@ -36,3 +36,12 @@ sayBye(usersData)
   .catch((err) => {
     console.log('promise Reject', err);
   });
+// fetch API
+fetch(usersData)
+  .then((responce) => {
+    console.log('resolve', responce);
+    responce.json()
+  })
+  .catch((error) => {
+    console.log('reject', error);
+  });
