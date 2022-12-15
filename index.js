@@ -40,7 +40,10 @@ sayBye(usersData)
 fetch(usersData)
   .then((responce) => {
     console.log('resolve', responce);
-    responce.json()
+    return responce.json();
+  })
+  .then((data) => {
+    console.log(data[1]);
   })
   .catch((error) => {
     console.log('reject', error);
