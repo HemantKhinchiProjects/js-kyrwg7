@@ -13,6 +13,9 @@
 //in the fetch API we just need to call to function
 //Note\*: fetch API promices only got reject. when we got network error.
 // we not got deta directly. for get data we need to add json() method
+
+
+
 _/Note: there are three stapes:_/
 A. we fetch the Data
 B. then we take the response and return the response.json that return a promis and in another then we accutuly get the data
