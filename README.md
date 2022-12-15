@@ -16,7 +16,7 @@
 _/Note: there are three stapes:_/
 A. we fetch the Data
 B. then we take the response and return the response.json that return a promis and in another then we accutuly get the data
-C. we also catch the error at the end
+C. we also catch the error at the end 
 
 1. for Resolve = .then(()=>{})
 2. for reject = .catch(()=>{})
