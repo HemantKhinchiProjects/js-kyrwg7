@@ -47,4 +47,4 @@ fetch(usersData)
   })
   .catch((error) => {
     console.log('reject', error);
-  });
+  }); 
